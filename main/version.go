@@ -9,7 +9,7 @@ import (
 
 var cmdVersion = &base.Command{
 	UsageLine: "{{.Exec}} version",
-	Short:     "Show current version of Xray",
+	Short:     "Show current version of qury",
 	Long: `Version prints the build information for qury executables.
 	`,
 	Run: executeVersion,
